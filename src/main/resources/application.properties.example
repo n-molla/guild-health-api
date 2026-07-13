@@ -1,8 +1,8 @@
 spring.application.name=demo
 
 
-spring.datasource.url=jdbc:postgresql://${PGHOST}:{$PGPORT}/{$PGDATABASE}
-spring.datasource.username=${PGUSRE}
+spring.datasource.url=jdbc:postgresql://${PGHOST}:${PGPORT}/${PGDATABASE}
+spring.datasource.username=${PGUSER}
 spring.datasource.password=${PGPASSWORD}
 
 
